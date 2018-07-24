@@ -1,25 +1,49 @@
 ﻿<!doctype html>
 
 <html>
-<head>
-	<title>We Are Walkers</title>
-	<meta charset="utf-8">
-	<style>
-		li a {
-			color:black
-		}
-	</style>
-</head>
+	<head>
+		<title>We Are Walkers</title>
+		<meta charset="utf-8">
+		<style>
+			li a {
+				color:black
+			}
+			h1 {
+            	border-bottom:5px aqua dotted;
+            	text-align: center;
+				padding-bottom: 50px;
+            	background-color:red;
+        	}
+        	ol{
+            	border-right:5px  brown solid;
+            	width:200px;
+				background-color: pink;
+        	}
+			body  {
+                background-color: skyblue;
+            }
+		</style>
+	</head>
 
-<body>
-<h1><a href="index.html"><font color="blue">ALAN WALKER</font></a></h1>
-<ol>
+	<body>
+	<h1><a href="index.html"><font color="blue">ALAN WALKER</font></a></h1>
+	<input
+        type="button"
+        value="낮"
+        onclick="document.querySelector('body').style.backgroundColor='skyblue';
+        document.querySelector('body').style.color='black';">
+    <input
+        type="button"
+        value="밤"
+        onclick="document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';">
+	<ol>
 	<li><a href="1.html"><b>About Alan Walker</b></a></li>
 	<li><a href="2.html">Songs</a></li>
 	<li><a href="3.html">Tour</a></li>
 	<li><a href="4.html">Merchandise</a></li> 
 	<li><a href="5.html">New</a></li>
-</ol>
+	</ol>
 
 <!-- <ol>
 	<li><a href="1.html"><font color="red">About Alan Walker</font></a></li>
@@ -27,14 +51,18 @@
 	<li><a href="3.html"><font color="red">Tour</font></a></li>
 </ol> -->
 
-<h2>About Alan Walker</h2>
-<ul>
-	<li>Full name : Alan Olav Walker</li>
-	<li>Nationality : Norway</li>
-	<li>Age : 21</li>
-</ul>
-<img src="http://alanwalker.no/wp-content/uploads/2017/10/AlanWalker-PhotoStianAndersen_41A3697HQ-300x300.jpg"><br>
-<a href="https://www.facebook.com/alanwalkermusic/"><font color="blue"><b>Facebook</b></font> </a>   <a href="https://www.youtube.com/user/DjWalkzz"><font color="red"><b>Youtube</b></font></a>
-
-</body>
-</html>
+	<h2>About Alan Walker</h2>
+	<ul>
+		<li>Full name : Alan Olav Walker</li>
+		<li>Nationality : Norway</li>
+		<li>Age : 21</li>
+	</ul>
+		<img src="http://alanwalker.no/wp-content/uploads/2017/10/AlanWalker-PhotoStianAndersen_41A3697HQ-300x300.jpg"><br>
+		<a href="https://www.facebook.com/alanwalkermusic/"><font color="blue"><b>Facebook</b></font></a>
+		<a href="https://www.youtube.com/user/DjWalkzz"><font color="red"><b>Youtube</b></font></a>
+		<a href="https://www.instagram.com/alanwalkermusic/"><font color="black"><b>Instagram</b></font></a>
+		<a href="https://twitter.com/IAmAlanWalker"><font color="skyblue"><b>Twitter</b></font></a>
+		<a href="https://open.spotify.com/artist/7vk5e3vY1uw9plTHJAMwjN"><font color="green"><b>Spotify</b></font></a>
+		<a href="https://itunes.apple.com/kr/artist/alan-walker/1062085272?app=music&ign-mpt=uo%3D4"><font color="white"><b>Itunes</b></font></a>
+	</body>
+	</html>

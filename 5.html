@@ -4,10 +4,40 @@
     <head>
         <title>We Are Walkers</title>
         <meta charset="utf-8">
+        <style>
+            li a {
+			    color:black
+		    }
+            h1 {
+                border-bottom:5px aqua dotted;
+                text-align: center;
+                padding-bottom: 50px;
+                background-color:red;
+            }
+            ol{
+                border-right:5px  brown solid;
+                width:200px;
+                background-color:pink;
+            }
+            body {
+                background-color: skyblue;
+            }
+        </style>
 
     </head>
     <body>
         <h1><a href="index.html">ALAN WALKER</a></h1>
+        <input
+            type="button"
+            value="낮"
+            onclick="document.querySelector('body').style.backgroundColor='skyblue';
+            document.querySelector('body').style.color='black';">
+        <input
+            type="button"
+            value="밤"
+            onclick="document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.color='white';">
+
         <ol>
             <li><a href="1.html">About Alan Walker</a></li>
             <li><a href="2.html">Songs</a></li>

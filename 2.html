@@ -8,11 +8,35 @@
 		li a {
 			color:black
 		}
+		h1 {
+            border-bottom:5px aqua dotted;
+            text-align: center;
+			padding-bottom: 50px;
+            background-color:red;
+        }
+        ol{
+            border-right:5px  brown solid;
+            width:200px;
+			background-color:pink;
+        }
+		body {
+            background-color: skyblue;
+        }
 	</style>
 </head>
 
 <body>
 <h1><a href="index.html"><font color="blue">ALAN WALKER</font></a></h1>
+<input
+    type="button"
+    value="낮"
+    onclick="document.querySelector('body').style.backgroundColor='skyblue';
+    document.querySelector('body').style.color='black';">
+<input
+    type="button"
+    value="밤"
+    onclick="document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';">
 <ol>
 	<li><a href="1.html">About Alan Walker</a></li>
 	<li><a href="2.html"><b>Songs</b></a></li>
@@ -22,7 +46,7 @@
 </ol>
 
 <h2>Songs</h2>
-<ol>
+<ul>
 	<li>Faded-------<a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank">CHECK</a>
 	<li>Alone-------<a href="https://www.youtube.com/watch?v=1-xGerv5FOk" target="_blank">CHECK</a>
 	<li>Sing Me To Sleep-------<a href="https://www.youtube.com/watch?v=2i2khp_npdE" target="_blank">CHECK</a>
@@ -30,7 +54,7 @@
 	<li>All Falls Down-------<a herf="https://www.youtube.com/watch?v=6RLLOEzdxsM" target="_blank">CHECK</a></li>
 	<li>Legends Never Die-------<a herf="https://www.youtube.com/watch?v=eEKfWVvADiQ" target="_blank">CHECK</a></li>
 	<li>The Spectre-------<a herf="https://www.youtube.com/watch?v=wJnBTPUQS5A" target="_blank">CHECK</a></li>
-</ol>
+</ul>
 
 <h3>NEW SONG!!</h3>
 	<li>Dark Side Trailer</li><br>
