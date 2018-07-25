@@ -4,28 +4,7 @@
 	<head>
 		<title>We Are Walkers</title>
 		<meta charset="utf-8">
-		<style>
-			li a {
-				color:black
-			}
-			a {
-				text-decoration: none;
-			}
-			h1 {
-   	         border-bottom:5px aqua dotted;
-   	         text-align: center;
-				padding-bottom: 50px;
-   	         background-color:red;
-    	    }
-    	    ol{
-        	    border-right:5px  brown solid;
-            	width:200px;
-				background-color:pink;
-    		}
-			body {
-        	    background-color: skyblue;
-    	    }
-		</style>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -40,6 +19,8 @@
 		    value="밤"
 		    onclick="document.querySelector('body').style.backgroundColor='black';
 		    document.querySelector('body').style.color='white';">
+		<div id="container">
+
 		<ol>
 			<li><a href="1.html">About Alan Walker</a></li>
 			<li><a href="2.html"><b>Songs</b></a></li>
@@ -47,7 +28,7 @@
 			<li><a href="4.html">Merchandise</a></li>
 			<li><a href="5.html">New</a></li>
 		</ol>
-
+		<div>
 		<h2>Songs</h2>
 		<ul>
 			<li>Faded-------<a href="https://www.youtube.com/watch?v=60ItHLz5WEA" target="_blank">CHECK</a>
@@ -62,6 +43,7 @@
 		<h3>NEW SONG!!</h3>
 			<li>Dark Side Trailer</li><br>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/WkVT3BqeLEM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+		</div>
+		</div>
 	</body>
 </html>
